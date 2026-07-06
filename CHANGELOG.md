@@ -20,6 +20,11 @@ Initial release of Inkling, a fork of
   Ollama server with no API key required.
 - **Mermaid diagrams** — the documentation agent now produces Mermaid diagrams
   for architecture and flows where they add clarity.
+- **Test suite** — unit tests for command parsing, provider resolution, the wiki
+  reader, search, validation, HTML export, and prompts, plus an end-to-end suite
+  that drives the built CLI. Coverage reporting via `pnpm run test:coverage`.
+- **Documentation** — `docs/` guides (commands, providers, static-site export,
+  architecture, testing), plus `SECURITY.md` and `CODE_OF_CONDUCT.md`.
 
 ### Changed
 

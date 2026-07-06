@@ -122,11 +122,32 @@ INKLING_MODEL_ID=your-gateway-model-name
 Base URLs and credentials can be set in your environment or stored in
 `~/.inkling/.env`.
 
+## Documentation
+
+Full guides live in [`docs/`](./docs/README.md):
+
+- [Commands](./docs/commands.md) — every command and flag.
+- [Providers & models](./docs/providers.md) — OpenRouter, Ollama, Anthropic,
+  OpenAI, and gateways.
+- [Static site export](./docs/static-site.md) — generating and hosting a site.
+- [Architecture](./docs/architecture.md) — how Inkling is built.
+- [Testing](./docs/testing.md) — the unit and E2E suites.
+
 ## Contributing
 
 Contributions are welcome — see [CONTRIBUTING.md](./CONTRIBUTING.md) and
-[DEVELOPMENT.md](./DEVELOPMENT.md) to get started. If there's a provider or model
-you'd like added, open an issue or PR.
+[DEVELOPMENT.md](./DEVELOPMENT.md) to get started. Please also review the
+[Code of Conduct](./CODE_OF_CONDUCT.md) and [Security policy](./SECURITY.md). If
+there's a provider or model you'd like added, open an issue or PR.
+
+## Testing
+
+```sh
+pnpm test              # unit + e2e
+pnpm run test:coverage # with coverage report
+```
+
+See [docs/testing.md](./docs/testing.md) for how the suite is organized.
 
 ## Credits
 

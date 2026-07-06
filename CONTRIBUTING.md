@@ -37,6 +37,21 @@ pnpm test
 `pnpm run format` and `pnpm run lint` will auto-fix most formatting and lint
 issues.
 
+## Tests
+
+Tests use [Vitest](https://vitest.dev) and live in `test/`:
+
+```sh
+pnpm test              # unit + e2e
+pnpm run test:watch    # watch mode
+pnpm run test:e2e      # end-to-end suite only
+pnpm run test:coverage # coverage report
+```
+
+See [docs/testing.md](./docs/testing.md) for the full layout and conventions.
+Reuse `createWikiRepo` from `test/helpers/fixtures.ts` for anything that needs a
+wiki on disk.
+
 ## Guidelines
 
 - Keep changes focused; one logical change per PR.

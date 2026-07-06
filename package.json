@@ -40,7 +40,7 @@
   "scripts": {
     "inkling": "node dist/cli.js",
     "build": "tsc -p tsconfig.json",
-    "clean": "rm -rf dist",
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
     "dev": "tsx src/cli.tsx",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -49,7 +49,10 @@
     "prebuild": "pnpm run clean",
     "prepack": "pnpm run build",
     "start": "node dist/cli.js",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "vitest run test/e2e.test.ts",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@langchain/anthropic": "^1.5.1",
@@ -67,6 +70,7 @@
     "@eslint/js": "^10.0.1",
     "@types/node": "^22.10.2",
     "@types/react": "^18.3.17",
+    "@vitest/coverage-v8": "^4.1.9",
     "eslint": "^10.5.0",
     "prettier": "^3.8.4",
     "tsx": "^4.19.2",
