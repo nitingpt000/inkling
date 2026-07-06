@@ -1,0 +1,15 @@
+node_modules/
+dist/
+
+# Inkling static-site export output
+inkling-site/
+
+# Build & test artifacts
+*.tsbuildinfo
+coverage/
+
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
