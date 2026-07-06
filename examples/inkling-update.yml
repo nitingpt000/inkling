@@ -24,7 +24,7 @@ jobs:
           node-version: "22"
 
       - name: Install Inkling
-        run: npm install --global inkling
+        run: npm install --global @nitingpt000/inkling
 
       - name: Run Inkling
         run: inkling --update --print

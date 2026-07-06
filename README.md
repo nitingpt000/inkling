@@ -5,7 +5,7 @@ Inkling is a CLI that writes, maintains, exports, and validates documentation fo
 ![Inkling](static/inkling.png)
 
 [![CI](https://github.com/nitingpt000/inkling/actions/workflows/checks.yml/badge.svg)](https://github.com/nitingpt000/inkling/actions/workflows/checks.yml)
-[![npm version](https://img.shields.io/npm/v/inkling.svg)](https://www.npmjs.com/package/inkling)
+[![npm version](https://img.shields.io/npm/v/@nitingpt000/inkling.svg)](https://www.npmjs.com/package/@nitingpt000/inkling)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
 > Inkling is a community fork of [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) with a static-site exporter, Mermaid diagrams, a local Ollama provider, and built-in wiki search & validation.
@@ -24,8 +24,11 @@ A [DeepAgents](https://github.com/langchain-ai/deepagents) documentation agent i
 ## Install
 
 ```sh
-npm install -g inkling
+npm install -g @nitingpt000/inkling
 ```
+
+The published package is scoped as `@nitingpt000/inkling`; the installed command
+is `inkling`.
 
 ## Quick start
 

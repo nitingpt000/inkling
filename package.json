@@ -1,6 +1,9 @@
 {
-  "name": "inkling",
+  "name": "@nitingpt000/inkling",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Inkling is a CLI that uses a DeepAgents documentation agent to generate, maintain, export, and validate a living wiki for your codebase.",
   "license": "MIT",
   "type": "module",
