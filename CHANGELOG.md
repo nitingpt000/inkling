@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file. The format is
 based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this
 project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.2] - 2026-07-06
+
+### Changed
+
+- Updated the README banner image to the current CLI screenshot and referenced
+  it by absolute URL so it renders on the npm package page.
+
 ## [0.1.1] - 2026-07-06
 
 ### Fixed
