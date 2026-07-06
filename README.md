@@ -23,12 +23,20 @@ A [DeepAgents](https://github.com/langchain-ai/deepagents) documentation agent i
 
 ## Install
 
+Install globally so the `inkling` command is available everywhere:
+
 ```sh
 npm install -g @nitingpt000/inkling
 ```
 
 The published package is scoped as `@nitingpt000/inkling`; the installed command
 is `inkling`.
+
+Or run it without installing, using `npx`:
+
+```sh
+npx @nitingpt000/inkling --help
+```
 
 ## Quick start
 
