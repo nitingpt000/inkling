@@ -266,4 +266,4 @@ export function isValidModelId(value: string): boolean {
   );
 }
 
-export const INKLING_VERSION = "0.1.0";
+export const INKLING_VERSION = "0.1.1";
