@@ -20,7 +20,7 @@
     "node": ">=20"
   },
   "bin": {
-    "inkling": "./dist/cli.js"
+    "inkling": "dist/cli.js"
   },
   "files": [
     "dist",
