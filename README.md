@@ -2,7 +2,7 @@
 
 Inkling is a CLI that writes, maintains, exports, and validates documentation for your codebase — built specifically for coding agents and the humans who work alongside them.
 
-![Inkling](static/inkling.png)
+![Inkling](https://raw.githubusercontent.com/nitingpt000/inkling/develop/static/inkling.png)
 
 [![CI](https://github.com/nitingpt000/inkling/actions/workflows/checks.yml/badge.svg)](https://github.com/nitingpt000/inkling/actions/workflows/checks.yml)
 [![npm version](https://img.shields.io/npm/v/@nitingpt000/inkling.svg)](https://www.npmjs.com/package/@nitingpt000/inkling)
